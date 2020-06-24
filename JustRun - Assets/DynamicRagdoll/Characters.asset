@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66d3a59de84e8034c811e650492245e9, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  firstRun: 1
+  firstRunGame: 1
+  readyCharacters:
+  - {fileID: 1188235761430326650, guid: ba1f1a6bbd758b84d9446a860064638a, type: 3}
+  - {fileID: 762518463718012011, guid: 36c3f72512e7eef4ba6888b26bc2673a, type: 3}
+  - {fileID: 8332623379788496619, guid: 63dce8a25f289184c9ebfeab9c5a6805, type: 3}
+  - {fileID: 649364530435100491, guid: fc9b7b4e4c025764e9ef3788ac72dc12, type: 3}
+  - {fileID: 424298699940460773, guid: 32c7d9f58c6886f459c62fa76a04b327, type: 3}
+  displayCharacters:
+  - character: {fileID: 38019278831917496, guid: 9f795956976ca77429ba26881c174c3c,
+      type: 3}
+    price: 0
+    stamina: 0.3
+    skills: 0.4
+    overall: 0.1
+    unlocked: 1
+    selected: 1
+  - character: {fileID: 8930629109231196043, guid: 1170aae67f3d56a4d9d8bb6daec0b84a,
+      type: 3}
+    price: 100
+    stamina: 0.4
+    skills: 0.8
+    overall: 0.5
+    unlocked: 0
+    selected: 0
+  - character: {fileID: 3946665596649062842, guid: 9a294c7539f9d8049881dff553066f1f,
+      type: 3}
+    price: 200
+    stamina: 0.8
+    skills: 0.4
+    overall: 0.7
+    unlocked: 0
+    selected: 0
+  - character: {fileID: 5833198522040493943, guid: a87f09ca04b52c04a8d5aab231f7599c,
+      type: 3}
+    price: 350
+    stamina: 0.6
+    skills: 0.4
+    overall: 0.9
+    unlocked: 0
+    selected: 0
+  - character: {fileID: 1036649795223734207, guid: a9324d446733a7a4ab8668c10cbe0b26,
+      type: 3}
+    price: 600
+    stamina: 0.8
+    skills: 0.9
+    overall: 1
+    unlocked: 0
+    selected: 0
